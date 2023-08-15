@@ -18,6 +18,6 @@ if(notaPromedio >=7){
     resultado = "Desaprobado"
 }
 
-console.log(`El alumno ${alumno} tiene un promedio de ${notaPromedio} y está ${resultado}.`);
+document.write(`El alumno ${alumno} tiene un promedio de ${notaPromedio.toFixed(2)} y está ${resultado}.`);
 
 
